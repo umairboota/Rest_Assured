@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\umair.boota_ventured\Desktop\Assignment_RestAssured\Task1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 2 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.testsCases" class="method navigator-link" hash-for-method="testAllUsersData">testAllUsersData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskThree" class="method navigator-link" hash-for-method="testTotalRecordsNegative">testTotalRecordsNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="deleteRecord">deleteRecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.testsCases" class="method navigator-link" hash-for-method="testCreateUser">testCreateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskThree" class="method navigator-link" hash-for-method="testCreateUserID">testCreateUserID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskThree" class="method navigator-link" hash-for-method="testCreateUserStatusCode">testCreateUserStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(1)">testGetUserDetails(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(userIds)">testGetUserDetails(userIds)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(6)">testGetUserDetails(6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(4)">testGetUserDetails(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(8)">testGetUserDetails(8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(3)">testGetUserDetails(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(5)">testGetUserDetails(5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(9)">testGetUserDetails(9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(7)">testGetUserDetails(7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(2)">testGetUserDetails(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskFour" class="method navigator-link" hash-for-method="testGetUserDetails(10)">testGetUserDetails(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.testsCases" class="method navigator-link" hash-for-method="testPatchInfoUpdate">testPatchInfoUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskThree" class="method navigator-link" hash-for-method="testPatchInfoUpdate">testPatchInfoUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.testsCases" class="method navigator-link" hash-for-method="testPutInfoUpdate">testPutInfoUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskThree" class="method navigator-link" hash-for-method="testPutInfoUpdate">testPutInfoUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskThree" class="method navigator-link" hash-for-method="testResponseStatusCode">testResponseStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskThree" class="method navigator-link" hash-for-method="testResponseTotalPages">testResponseTotalPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.taskThree" class="method navigator-link" hash-for-method="testTotalRecords">testTotalRecords</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.testsCases" class="method navigator-link" hash-for-method="testgetSingleUser">testgetSingleUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.test.testsCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllUsersData">
+                  </a> <!-- testAllUsersData -->
+                  <span class="method-name">testAllUsersData</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [2] but found [1]
+	at api.test.testsCases.testAllUsersData(testsCases.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.test.taskThree</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTotalRecordsNegative">
+                  </a> <!-- testTotalRecordsNegative -->
+                  <span class="method-name">testTotalRecordsNegative</span>
+                  <div class="stack-trace">java.lang.AssertionError: Total records do not match the expected count expected [6] but found [12]
+	at api.test.taskThree.testTotalRecordsNegative(taskThree.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.taskFour</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteRecord">
+                  </a> <!-- deleteRecord -->
+                  <span class="method-name">deleteRecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(1)">
+                  </a> <!-- testGetUserDetails(1) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(userIds)">
+                  </a> <!-- testGetUserDetails(userIds) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(userIds)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(6)">
+                  </a> <!-- testGetUserDetails(6) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(4)">
+                  </a> <!-- testGetUserDetails(4) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(8)">
+                  </a> <!-- testGetUserDetails(8) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(3)">
+                  </a> <!-- testGetUserDetails(3) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(5)">
+                  </a> <!-- testGetUserDetails(5) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(9)">
+                  </a> <!-- testGetUserDetails(9) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(7)">
+                  </a> <!-- testGetUserDetails(7) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(2)">
+                  </a> <!-- testGetUserDetails(2) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetails(10)">
+                  </a> <!-- testGetUserDetails(10) -->
+                  <span class="method-name">testGetUserDetails</span>
+                  <span class="parameters">(10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.testsCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUser">
+                  </a> <!-- testCreateUser -->
+                  <span class="method-name">testCreateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPatchInfoUpdate">
+                  </a> <!-- testPatchInfoUpdate -->
+                  <span class="method-name">testPatchInfoUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPutInfoUpdate">
+                  </a> <!-- testPutInfoUpdate -->
+                  <span class="method-name">testPutInfoUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetSingleUser">
+                  </a> <!-- testgetSingleUser -->
+                  <span class="method-name">testgetSingleUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.taskThree</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserID">
+                  </a> <!-- testCreateUserID -->
+                  <span class="method-name">testCreateUserID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserStatusCode">
+                  </a> <!-- testCreateUserStatusCode -->
+                  <span class="method-name">testCreateUserStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPatchInfoUpdate">
+                  </a> <!-- testPatchInfoUpdate -->
+                  <span class="method-name">testPatchInfoUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPutInfoUpdate">
+                  </a> <!-- testPutInfoUpdate -->
+                  <span class="method-name">testPutInfoUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseStatusCode">
+                  </a> <!-- testResponseStatusCode -->
+                  <span class="method-name">testResponseStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseTotalPages">
+                  </a> <!-- testResponseTotalPages -->
+                  <span class="method-name">testResponseTotalPages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTotalRecords">
+                  </a> <!-- testTotalRecords -->
+                  <span class="method-name">testTotalRecords</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\umair.boota_ventured\Desktop\Assignment_RestAssured\Task1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.testsCases&quot;/&gt;
+      &lt;class name=&quot;api.test.taskThree&quot;/&gt;
+      &lt;class name=&quot;api.test.taskFour&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreateUser')
+data.setCell(0, 2, 'api.test.testsCases')
+data.setCell(0, 3, 1133);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAllUsersData')
+data.setCell(1, 2, 'api.test.testsCases')
+data.setCell(1, 3, 956);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testgetSingleUser')
+data.setCell(2, 2, 'api.test.testsCases')
+data.setCell(2, 3, 752);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCreateUserID')
+data.setCell(3, 2, 'api.test.taskThree')
+data.setCell(3, 3, 716);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPatchInfoUpdate')
+data.setCell(4, 2, 'api.test.testsCases')
+data.setCell(4, 3, 715);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testPatchInfoUpdate')
+data.setCell(5, 2, 'api.test.taskThree')
+data.setCell(5, 3, 706);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCreateUserStatusCode')
+data.setCell(6, 2, 'api.test.taskThree')
+data.setCell(6, 3, 702);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPutInfoUpdate')
+data.setCell(7, 2, 'api.test.taskThree')
+data.setCell(7, 3, 697);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deleteRecord')
+data.setCell(8, 2, 'api.test.taskFour')
+data.setCell(8, 3, 690);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testPutInfoUpdate')
+data.setCell(9, 2, 'api.test.testsCases')
+data.setCell(9, 3, 690);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testResponseTotalPages')
+data.setCell(10, 2, 'api.test.taskThree')
+data.setCell(10, 3, 384);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGetUserDetails')
+data.setCell(11, 2, 'api.test.taskFour')
+data.setCell(11, 3, 370);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testTotalRecords')
+data.setCell(12, 2, 'api.test.taskThree')
+data.setCell(12, 3, 366);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testGetUserDetails')
+data.setCell(13, 2, 'api.test.taskFour')
+data.setCell(13, 3, 358);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testGetUserDetails')
+data.setCell(14, 2, 'api.test.taskFour')
+data.setCell(14, 3, 353);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testTotalRecordsNegative')
+data.setCell(15, 2, 'api.test.taskThree')
+data.setCell(15, 3, 353);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testGetUserDetails')
+data.setCell(16, 2, 'api.test.taskFour')
+data.setCell(16, 3, 352);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testGetUserDetails')
+data.setCell(17, 2, 'api.test.taskFour')
+data.setCell(17, 3, 350);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testResponseStatusCode')
+data.setCell(18, 2, 'api.test.taskThree')
+data.setCell(18, 3, 348);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testGetUserDetails')
+data.setCell(19, 2, 'api.test.taskFour')
+data.setCell(19, 3, 344);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testGetUserDetails')
+data.setCell(20, 2, 'api.test.taskFour')
+data.setCell(20, 3, 341);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testGetUserDetails')
+data.setCell(21, 2, 'api.test.taskFour')
+data.setCell(21, 3, 340);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testGetUserDetails')
+data.setCell(22, 2, 'api.test.taskFour')
+data.setCell(22, 3, 336);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testGetUserDetails')
+data.setCell(23, 2, 'api.test.taskFour')
+data.setCell(23, 3, 335);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testGetUserDetails')
+data.setCell(24, 2, 'api.test.taskFour')
+data.setCell(24, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.taskThree</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpDummyData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">testFetchAllUsers</span>
+                <span class="method-start">214 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.testsCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpData</span>
+                <span class="method-start">2313 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAllUsersData</span>
+                <span class="method-start">2402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateUser</span>
+                <span class="method-start">3363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testgetSingleUser</span>
+                <span class="method-start">4497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPatchInfoUpdate</span>
+                <span class="method-start">5251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPutInfoUpdate</span>
+                <span class="method-start">5968 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.taskThree</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testResponseStatusCode</span>
+                <span class="method-start">6665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseTotalPages</span>
+                <span class="method-start">7015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTotalRecords</span>
+                <span class="method-start">7401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTotalRecordsNegative</span>
+                <span class="method-start">7768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserStatusCode</span>
+                <span class="method-start">8123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserID</span>
+                <span class="method-start">8825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPutInfoUpdate</span>
+                <span class="method-start">9542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPatchInfoUpdate</span>
+                <span class="method-start">10243 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.taskFour</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(userIds)</span>
+                <span class="method-start">10970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(1)</span>
+                <span class="method-start">10972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(2)</span>
+                <span class="method-start">11317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(3)</span>
+                <span class="method-start">11688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(4)</span>
+                <span class="method-start">12025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(5)</span>
+                <span class="method-start">12380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(6)</span>
+                <span class="method-start">12736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(7)</span>
+                <span class="method-start">13089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(8)</span>
+                <span class="method-start">13450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(9)</span>
+                <span class="method-start">13793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserDetails(10)</span>
+                <span class="method-start">14129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteRecord</span>
+                <span class="method-start">14471 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
