@@ -36,7 +36,7 @@ public class taskFour {
     }
 
     
-//    point - 3
+//    point - 3 - Delete the data of id = 3
     
     @Test(priority = 2)
     public void deleteRecord() {
