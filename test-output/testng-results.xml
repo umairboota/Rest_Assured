@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="25" passed="23" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-16T18:42:19 PKT" name="Suite" finished-at="2023-12-16T18:42:34 PKT" duration-ms="15177">
+  <suite started-at="2023-12-16T19:39:52 PKT" name="Suite" finished-at="2023-12-16T19:40:10 PKT" duration-ms="17748">
     <groups>
     </groups>
-    <test started-at="2023-12-16T18:42:19 PKT" name="Test" finished-at="2023-12-16T18:42:34 PKT" duration-ms="15177">
+    <test started-at="2023-12-16T19:39:52 PKT" name="Test" finished-at="2023-12-16T19:40:10 PKT" duration-ms="17748">
       <class name="api.test.taskFour">
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:30 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:30 PKT" duration-ms="1" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:04 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:04 PKT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:30 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:30 PKT" duration-ms="344" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:04 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:04 PKT" duration-ms="345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:30 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:31 PKT" duration-ms="370" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:04 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:04 PKT" duration-ms="390" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:31 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:31 PKT" duration-ms="336" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:04 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:05 PKT" duration-ms="374" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:31 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:31 PKT" duration-ms="352" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:05 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:05 PKT" duration-ms="367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:31 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:32 PKT" duration-ms="353" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:05 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:05 PKT" duration-ms="381" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:32 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:32 PKT" duration-ms="350" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:05 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:06 PKT" duration-ms="746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:32 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:32 PKT" duration-ms="358" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:06 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:07 PKT" duration-ms="792" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:32 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:33 PKT" duration-ms="341" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:07 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:08 PKT" duration-ms="727" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:33 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:33 PKT" duration-ms="335" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:08 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:08 PKT" duration-ms="712" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:33 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T18:42:33 PKT" duration-ms="340" status="PASS">
+        <test-method signature="testGetUserDetails(java.lang.String)[pri:0, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:08 PKT" name="testGetUserDetails" data-provider="userIds" finished-at="2023-12-16T19:40:09 PKT" duration-ms="726" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,33 +128,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetails -->
-        <test-method signature="deleteRecord()[pri:2, instance:api.test.taskFour@459e9125]" started-at="2023-12-16T18:42:33 PKT" name="deleteRecord" finished-at="2023-12-16T18:42:34 PKT" duration-ms="690" status="PASS">
+        <test-method signature="deleteRecord()[pri:2, instance:api.test.taskFour@128d2484]" started-at="2023-12-16T19:40:09 PKT" name="deleteRecord" finished-at="2023-12-16T19:40:10 PKT" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteRecord -->
       </class> <!-- api.test.taskFour -->
       <class name="api.test.taskThree">
-        <test-method is-config="true" signature="setUpDummyData()[pri:0, instance:api.test.taskThree@6f1de4c7]" started-at="2023-12-16T18:42:19 PKT" name="setUpDummyData" finished-at="2023-12-16T18:42:19 PKT" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="setUpDummyData()[pri:0, instance:api.test.taskThree@459e9125]" started-at="2023-12-16T19:39:52 PKT" name="setUpDummyData" finished-at="2023-12-16T19:39:53 PKT" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDummyData -->
-        <test-method is-config="true" signature="testFetchAllUsers()[pri:0, instance:api.test.taskThree@6f1de4c7]" started-at="2023-12-16T18:42:19 PKT" name="testFetchAllUsers" finished-at="2023-12-16T18:42:21 PKT" duration-ms="2099" status="PASS">
+        <test-method is-config="true" signature="testFetchAllUsers()[pri:0, instance:api.test.taskThree@459e9125]" started-at="2023-12-16T19:39:53 PKT" name="testFetchAllUsers" finished-at="2023-12-16T19:39:55 PKT" duration-ms="2126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFetchAllUsers -->
-        <test-method signature="testResponseStatusCode()[pri:1, instance:api.test.taskThree@6f1de4c7]" started-at="2023-12-16T18:42:25 PKT" name="testResponseStatusCode" finished-at="2023-12-16T18:42:26 PKT" duration-ms="348" status="PASS">
+        <test-method signature="testResponseStatusCode()[pri:1, instance:api.test.taskThree@459e9125]" started-at="2023-12-16T19:39:59 PKT" name="testResponseStatusCode" finished-at="2023-12-16T19:39:59 PKT" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseStatusCode -->
-        <test-method signature="testResponseTotalPages()[pri:2, instance:api.test.taskThree@6f1de4c7]" started-at="2023-12-16T18:42:26 PKT" name="testResponseTotalPages" finished-at="2023-12-16T18:42:26 PKT" duration-ms="384" status="PASS">
+        <test-method signature="testResponseTotalPages()[pri:2, instance:api.test.taskThree@459e9125]" started-at="2023-12-16T19:39:59 PKT" name="testResponseTotalPages" finished-at="2023-12-16T19:40:00 PKT" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseTotalPages -->
-        <test-method signature="testTotalRecords()[pri:3, instance:api.test.taskThree@6f1de4c7]" started-at="2023-12-16T18:42:26 PKT" name="testTotalRecords" finished-at="2023-12-16T18:42:27 PKT" duration-ms="366" status="PASS">
+        <test-method signature="testTotalRecords()[pri:3, instance:api.test.taskThree@459e9125]" started-at="2023-12-16T19:40:00 PKT" name="testTotalRecords" finished-at="2023-12-16T19:40:00 PKT" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTotalRecords -->
-        <test-method signature="testTotalRecordsNegative()[pri:4, instance:api.test.taskThree@6f1de4c7]" started-at="2023-12-16T18:42:27 PKT" name="testTotalRecordsNegative" finished-at="2023-12-16T18:42:27 PKT" duration-ms="353" status="FAIL">
+        <test-method signature="testTotalRecordsNegative()[pri:4, instance:api.test.taskThree@459e9125]" started-at="2023-12-16T19:40:00 PKT" name="testTotalRecordsNegative" finished-at="2023-12-16T19:40:01 PKT" duration-ms="375" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Total records do not match the expected count expected [6] but found [12]]]>
@@ -202,29 +202,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTotalRecordsNegative -->
-        <test-method signature="testCreateUserStatusCode()[pri:5, instance:api.test.taskThree@6f1de4c7]" started-at="2023-12-16T18:42:27 PKT" name="testCreateUserStatusCode" finished-at="2023-12-16T18:42:28 PKT" duration-ms="702" status="PASS">
+        <test-method signature="testCreateUserStatusCode()[pri:5, instance:api.test.taskThree@459e9125]" started-at="2023-12-16T19:40:01 PKT" name="testCreateUserStatusCode" finished-at="2023-12-16T19:40:01 PKT" duration-ms="704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateUserStatusCode -->
-        <test-method signature="testCreateUserID()[pri:6, instance:api.test.taskThree@6f1de4c7]" started-at="2023-12-16T18:42:28 PKT" name="testCreateUserID" finished-at="2023-12-16T18:42:28 PKT" duration-ms="716" status="PASS">
+        <test-method signature="testCreateUserID()[pri:6, instance:api.test.taskThree@459e9125]" started-at="2023-12-16T19:40:01 PKT" name="testCreateUserID" finished-at="2023-12-16T19:40:02 PKT" duration-ms="748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateUserID -->
-        <test-method signature="testPutInfoUpdate()[pri:7, instance:api.test.taskThree@6f1de4c7]" started-at="2023-12-16T18:42:28 PKT" name="testPutInfoUpdate" finished-at="2023-12-16T18:42:29 PKT" duration-ms="697" status="PASS">
+        <test-method signature="testPutInfoUpdate()[pri:7, instance:api.test.taskThree@459e9125]" started-at="2023-12-16T19:40:02 PKT" name="testPutInfoUpdate" finished-at="2023-12-16T19:40:03 PKT" duration-ms="737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPutInfoUpdate -->
-        <test-method signature="testPatchInfoUpdate()[pri:8, instance:api.test.taskThree@6f1de4c7]" started-at="2023-12-16T18:42:29 PKT" name="testPatchInfoUpdate" finished-at="2023-12-16T18:42:30 PKT" duration-ms="706" status="PASS">
+        <test-method signature="testPatchInfoUpdate()[pri:8, instance:api.test.taskThree@459e9125]" started-at="2023-12-16T19:40:03 PKT" name="testPatchInfoUpdate" finished-at="2023-12-16T19:40:03 PKT" duration-ms="705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPatchInfoUpdate -->
       </class> <!-- api.test.taskThree -->
       <class name="api.test.testsCases">
-        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.testsCases@689604d9]" started-at="2023-12-16T18:42:21 PKT" name="setUpData" finished-at="2023-12-16T18:42:21 PKT" duration-ms="43" status="PASS">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.testsCases@18078bef]" started-at="2023-12-16T19:39:55 PKT" name="setUpData" finished-at="2023-12-16T19:39:55 PKT" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpData -->
-        <test-method signature="testAllUsersData()[pri:1, instance:api.test.testsCases@689604d9]" started-at="2023-12-16T18:42:21 PKT" name="testAllUsersData" finished-at="2023-12-16T18:42:22 PKT" duration-ms="956" status="FAIL">
+        <test-method signature="testAllUsersData()[pri:1, instance:api.test.testsCases@18078bef]" started-at="2023-12-16T19:39:55 PKT" name="testAllUsersData" finished-at="2023-12-16T19:39:56 PKT" duration-ms="1058" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [2] but found [1]]]>
@@ -273,19 +273,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAllUsersData -->
-        <test-method signature="testCreateUser()[pri:2, instance:api.test.testsCases@689604d9]" started-at="2023-12-16T18:42:22 PKT" name="testCreateUser" finished-at="2023-12-16T18:42:23 PKT" duration-ms="1133" status="PASS">
+        <test-method signature="testCreateUser()[pri:2, instance:api.test.testsCases@18078bef]" started-at="2023-12-16T19:39:56 PKT" name="testCreateUser" finished-at="2023-12-16T19:39:57 PKT" duration-ms="1084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateUser -->
-        <test-method signature="testgetSingleUser()[pri:3, instance:api.test.testsCases@689604d9]" started-at="2023-12-16T18:42:23 PKT" name="testgetSingleUser" finished-at="2023-12-16T18:42:24 PKT" duration-ms="752" status="PASS">
+        <test-method signature="testgetSingleUser()[pri:3, instance:api.test.testsCases@18078bef]" started-at="2023-12-16T19:39:57 PKT" name="testgetSingleUser" finished-at="2023-12-16T19:39:58 PKT" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testgetSingleUser -->
-        <test-method signature="testPatchInfoUpdate()[pri:4, instance:api.test.testsCases@689604d9]" started-at="2023-12-16T18:42:24 PKT" name="testPatchInfoUpdate" finished-at="2023-12-16T18:42:25 PKT" duration-ms="715" status="PASS">
+        <test-method signature="testPatchInfoUpdate()[pri:4, instance:api.test.testsCases@18078bef]" started-at="2023-12-16T19:39:58 PKT" name="testPatchInfoUpdate" finished-at="2023-12-16T19:39:58 PKT" duration-ms="700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPatchInfoUpdate -->
-        <test-method signature="testPutInfoUpdate()[pri:5, instance:api.test.testsCases@689604d9]" started-at="2023-12-16T18:42:25 PKT" name="testPutInfoUpdate" finished-at="2023-12-16T18:42:25 PKT" duration-ms="690" status="PASS">
+        <test-method signature="testPutInfoUpdate()[pri:5, instance:api.test.testsCases@18078bef]" started-at="2023-12-16T19:39:58 PKT" name="testPutInfoUpdate" finished-at="2023-12-16T19:39:59 PKT" duration-ms="692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPutInfoUpdate -->
